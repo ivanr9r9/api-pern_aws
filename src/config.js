@@ -3,10 +3,10 @@ config()
 
 module.exports = {
     db: {
-        user: process.env.DB_USER,
-        password: process.env.DB_PASSWORD,
-        host: process.env.DB_HOST,
-        port: process.env.DB_PORT,
-        database: process.env.DB_NAME,
+        user: 'postgres',
+        password: 'admin.aws123',
+        host: 'services.con59mchywxh.us-east-2.rds.amazonaws.com',
+        port: 5432,
+        database: 'capas',
     }
 }
